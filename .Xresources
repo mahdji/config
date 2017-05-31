@@ -1,0 +1,103 @@
+
+! Xft {{{1
+! anti-aliasing
+Xft*antialias         : true
+Xft.hinting           : true
+Xft.hintstyle         : hintslight
+Xft*dpi : 96
+
+! do not scroll with output
+ URxvt*scrollTtyOutput: false
+!
+! ! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+ URxvt*scrollWithBuffer: true
+!
+! ! scroll back to the bottom on keypress
+  URxvt*scrollTtyKeypress: true
+
+URxvt*loginShell      : true
+URxvt*scrollBar       : false
+URxvt*scrollBar_right : false
+URxvt*transparent     : true
+URxvt*shading         : 30
+URxvt*cursorBlink : true
+
+!URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true
+
+! Font
+!URxvt*font:					xft:Inconsolata-dz for Powerline:size=12
+urxvt*font: xft:Inconsolata for Powerline:pixelsize=16
+
+
+!Courier
+!URxvt.font: xft:Courier-10
+
+!Inconsolata
+!URxvt.font: xft:Inconsolata-12
+!URxvt.boldFont: xft:Inconsolata-12
+!URxvt.letterSpace: -1
+
+!Inconsolata-g
+!URxvt.font: xft:InconsolataG-10
+!URxvt.letterSpace: -1
+
+!Anonymous Pro
+!URxvt.font: xft:Anonymous\ Pro-12
+!URxvt.letterSpace: -1
+
+!Monaco
+!URxvt.font: xft:Monaco-10
+!URxvt.letterSpace: -1
+
+!Droid Sans Mono
+!URxvt.font: xft:Droid Sans Mono-10
+!URxvt.letterSpace: -1
+
+!DejaVu Sans
+!URxvt.font: xft:DejaVu Sans Mono-10
+!URxvt.letterSpace: -1
+
+!Manospace
+!URxvt.font: xft:Monospace-10
+!URxvt.letterSpace: -1
+
+!Terminus
+!URxvt.font: xft:Terminus-10
+
+
+! special
+*.foreground:   #93a1a1
+*.background:   #002b36
+*.cursorColor:  #93a1a1
+
+! black
+*.color0:       #002b36
+*.color8:       #657b83
+
+! red
+*.color1:       #dc322f
+*.color9:       #dc322f
+
+! green
+*.color2:       #859900
+*.color10:      #859900
+
+! yellow
+*.color3:       #b58900
+*.color11:      #b58900
+
+! blue
+*.color4:       #268bd2
+*.color12:      #268bd2
+
+! magenta
+*.color5:       #6c71c4
+*.color13:      #6c71c4
+
+! cyan
+*.color6:       #2aa198
+*.color14:      #2aa198
+
+! white
+*.color7:       #93a1a1
+*.color15:      #fdf6e3

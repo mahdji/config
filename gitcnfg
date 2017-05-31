@@ -1,0 +1,28 @@
+[core]
+	excludesfile = ~/.gitignore
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[commit]
+	verbose = true
+[pull]
+	rebase = true
+[branch]
+	autosetuprebase = always
+[push]
+	default = simple
+[sendemail]
+	smtpencryption = tls
+	smtpserver = smtp.office365.com
+	smtpserverport = 587
+	smtpuser = firstname.lastname@epita.fr
+[user]
+	name = Hamdi ABDALLAH SALEH
+	email = hamdi.abdallah_saleh@epita.fr
+[color]
+	ui = true
+[push]
+	default = simple
